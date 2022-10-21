@@ -1,0 +1,45 @@
+.nav-link
+{
+    text-align: center;
+    padding-bottom: 0rem;
+}
+.nav-link:hover
+{
+    background-color: darkblue;
+}
+.navbar
+{
+    margin-bottom: 0rem;
+    padding-bottom: 0%;
+}
+.submit-btn
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#crpad
+{ 
+    margin-top: 10px;
+}
+
+html
+{
+    scroll-behavior:smooth;
+}
+.criteria-head
+{
+    padding: 10px;
+    padding-left: 0px;
+   font-size: x-large;
+}
+.AHP-title
+{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background-color:blue;
+}
