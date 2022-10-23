@@ -3,6 +3,13 @@
     text-align: center;
     padding-bottom: 0rem;
 }
+.table-head-row1
+{
+    position: sticky;
+    right: 0px;
+    text-align: center;
+    z-index:−2147483648;
+}
 .nav-link:hover
 {
     background-color: darkblue;
@@ -42,4 +49,41 @@ html
     margin-top: 0rem;
     margin-bottom: 0rem;
     background-color:blue;
+}
+.tbl-container
+{
+    max-width: fit-content;
+    max-width: fit-content;
+}
+.tbl-fixed
+{
+    overflow-x: scroll;
+    overflow-y: scroll;
+     height: fit-content; 
+    max-height: 70vh; 
+}
+.table-hover
+{
+    border-collapse: separate;
+}
+.table-head
+{
+    position: sticky; 
+    top: 0px;
+     text-align: center;
+}
+.table-head-row
+{
+    position: sticky; 
+    left: 0px;
+     text-align: center;
+}
+
+#table_button
+{
+    margin-top: 20px;
+}
+.eigen-col
+{
+    background-color: black;
 }

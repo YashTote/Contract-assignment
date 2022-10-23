@@ -41,7 +41,7 @@
     <div class="row">  
     <div class="col-md-4">
       <label for="Criteria" class="form-label">Criteria</label>
-      <input type="number" class="form-control" id="inputcriteria" value="5" >
+      <input type="number" class="form-control" id="inputcriteria" value="20" max="25" >
     </div>
     <div class="col-md-4 ">
         <label for="Alternatives" class="form-label">Alternatives</label>
@@ -52,8 +52,8 @@
     <button type="submit" class="btn btn-primary ">Submit</button> 
 </div> -->
 
-<div class="form submit-btn">
-    <button class="btn btn-success" type="submit">Submit</button>
+  <div>
+    <button class="btn submit-btn btn-success" type="submit">Submit</button>
     <button onClick="window.location.reload();" class="btn btn-primary" id="refresh-btn" type="refresh" type="button">Refresh</button>
   </div>
 
@@ -66,9 +66,15 @@
     <div class="row cr-row"></div>
   </form>
 </div>
-<hr>
+<!-- <hr> -->
 <!-- break -->
 
+<form class="form container tbl-container" name="data-form"  onsubmit="return validateForm()">
+  <div class="row tbl-fixed">
+    
+  </div>
+
+</form>
 
 <script src="/script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
