@@ -1,0 +1,22 @@
+{
+  "name": "ahp",
+  "version": "1.0.0",
+  "description": "A web app for contractor selection using AHP",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashTote/Analytical-Hierarchial-Process.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YashTote/Analytical-Hierarchial-Process/issues"
+  },
+  "homepage": "https://github.com/YashTote/Analytical-Hierarchial-Process#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
